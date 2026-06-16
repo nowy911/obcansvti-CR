@@ -37,9 +37,16 @@ function renderReviewItem(q, userAnswer) {
 }
 
 function startTest(mode) {
+  let shuffled = [...QUESTIONS];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+
     currentQuestions = mode === 'test' 
-        ? [...QUESTIONS].sort(() => 0.5 - Math.random()).slice(0, 30)
-        : [...QUESTIONS];
+        ? shuffled.slice(0, 30) // Vezme prvních 30 po zamíchání
+        : shuffled; // Režim procvičování vezme vše
+        
     currentIndex = 0;
     score = 0;
     userAnswers = [];
