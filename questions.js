@@ -198,7 +198,7 @@ const QUESTIONS = [
     "question": "Petr je v 9. ročníku základní školy. Na které škole nemůže pokračovat ve studiu v dalším školním roce?",
     "options": { "A": "Na gymnáziu.", "B": "Na vysoké škole.", "C": "Na střední odborné škole.", "D": "Na středním odborném učilišti." },
     "correct": "B"
-  }
+  },
 
   { "question": "Na kterém obrázku je česká státní vlajka?", "options": { "A": "A", "B": "B", "C": "C", "D": "D" }, "correct": "C" },
   { "question": "Který dokument České republiky popisuje základní pravidla pro rozdělení státní moci na zákonodárnou, výkonnou a soudní?", "options": { "A": "Ústava.", "B": "Vládní nařízení.", "C": "Vyhláška ministerstva vnitra.", "D": "Listina základních práv a svobod." }, "correct": "A" },
@@ -289,7 +289,7 @@ const QUESTIONS = [
   { "question": "V současnosti jsou v České republice dvě sazby daně z přidané hodnoty (DPH). Jaká je jejich procentuální výše?", "options": { "A": "10 % a 5 %.", "B": "15 % a 10 %.", "C": "21 % a 12 %.", "D": "26 % a 16 %." }, "correct": "C" },
   { "question": "Co označuje zkratka DPH?", "options": { "A": "Daň z příjmů.", "B": "Hrubý domácí produkt.", "C": "Daň z přidané hodnoty.", "D": "Dohodu o provedení práce." }, "correct": "C" },
   { "question": "Který druh zboží má v ceně spotřební daň?", "options": { "A": "Tvrdý alkohol.", "B": "Elektrická energie.", "C": "Sportovní oblečení.", "D": "Elektronická zařízení." }, "correct": "A" },
-  { "question": "Pan Svoboda má zaplatit dluh 2 500 Kč na dani z příjmů. Kterému úřadu dluh zaplatí?", "options": { "A": "Úřadu práce.", "B": "Celnímu úřadu.", "C": "Finančnímu úřadu.", "D": "Českému statistickému úřadu." }, "correct": "C" }
+  { "question": "Pan Svoboda má zaplatit dluh 2 500 Kč na dani z příjmů. Kterému úřadu dluh zaplatí?", "options": { "A": "Úřadu práce.", "B": "Celnímu úřadu.", "C": "Finančnímu úřadu.", "D": "Českému statistickému úřadu." }, "correct": "C" },
 
      { "question": "Který úřad poskytuje podporu v nezaměstnanosti?", "options": { "A": "Živnostenský úřad.", "B": "Finanční úřad.", "C": "Krajský úřad.", "D": "Úřad práce." }, "correct": "D" },
   { "question": "Paní Svobodová má nárok na starobní důchod. Která instituce v České republice vydá rozhodnutí o výši jejího důchodu?", "options": { "A": "Úřad práce.", "B": "Ministerstvo vnitra.", "C": "Ministerstvo zdravotnictví.", "D": "Česká správa sociálního zabezpečení." }, "correct": "D" },
@@ -350,7 +350,7 @@ const QUESTIONS = [
   { "question": "Perník je tradiční české pečivo s medem a kořením. Které město je slavné díky výrobě perníku?", "options": { "A": "Hořice.", "B": "Pardubice.", "C": "Karlovy Vary.", "D": "Mariánské Lázně." }, "correct": "B" },
   { "question": "Univerzita Tomáše Bati se jmenuje po významném podnikateli a zakladateli obuvnické firmy. Ve kterém krajském městě tato univerzita sídlí?", "options": { "A": "V Brně.", "B": "Ve Zlíně.", "C": "V Ostravě.", "D": "V Pardubicích." }, "correct": "B" },
   { "question": "Jihlava je krajské město a leží blízko dálnice D1. Ve kterém kraji je město Jihlava?", "options": { "A": "V Kraji Vysočina.", "B": "V Pardubickém kraji.", "C": "Ve Středočeském kraji.", "D": "V Moravskoslezském kraji." }, "correct": "A" },
-  { "question": "Pan Novák jede autem na služební cestu z Prahy do Děčína. Použije dálnici D8. Kolem kterého krajského města musí do Děčína projet?", "options": { "A": "Kolem Brna.", "B": "Kolem Pardubic.", "C": "Kolem Ústí nad Labem.", "D": "Kolem Českých Budějovic." }, "correct": "C" }
+  { "question": "Pan Novák jede autem na služební cestu z Prahy do Děčína. Použije dálnici D8. Kolem kterého krajského města musí do Děčína projet?", "options": { "A": "Kolem Brna.", "B": "Kolem Pardubic.", "C": "Kolem Ústí nad Labem.", "D": "Kolem Českých Budějovic." }, "correct": "C" },
 
 { "category": "OCHRANA ŽIVOTNÍHO PROSTŘEDÍ", "question": "Česko má bohaté zásoby podzemních minerálních vod. Pramen minerální vody Vincentka se nachází v lázních Luhačovice. Které číslo na mapě označuje město Luhačovice?", "options": { "A": "1.", "B": "2.", "C": "3.", "D": "4." }, "correct": "C" },
   { "category": "OCHRANA ŽIVOTNÍHO PROSTŘEDÍ", "question": "Který národní park leží u hranice Česka s Polskem?", "options": { "A": "Národní park Podyjí.", "B": "Šumavský národní park.", "C": "Krkonošský národní park.", "D": "Národní park České Švýcarsko." }, "correct": "C" },
@@ -421,7 +421,7 @@ const QUESTIONS = [
   { "category": "DĚJINY ČESKOSLOVENSKA DO ROKU 1948", "question": "Jak se jmenoval zastupující říšský protektor, na kterého spáchali Gabčík a Kubiš v roce 1942 v Praze atentát?", "options": { "A": "K. H. Frank.", "B": "Joseph Goebbels.", "C": "Hermann Göring.", "D": "Reinhard Heydrich." }, "correct": "D" },
   { "category": "DĚJINY ČESKOSLOVENSKA DO ROKU 1948", "question": "Který den si Česká republika připomíná konec druhé světové války – Den vítězství?", "options": { "A": "6. července.", "B": "8. května.", "C": "28. října.", "D": "28. září." }, "correct": "B" },
   { "category": "DĚJINY ČESKOSLOVENSKA DO ROKU 1948", "question": "Která historická událost předcházela vzniku Československa v roce 1918?", "options": { "A": "Sametová revoluce.", "B": "První světová válka.", "C": "Druhá světová válka.", "D": "Světová hospodářská krize." }, "correct": "B" },
-  { "category": "DĚJINY ČESKOSLOVENSKA DO ROKU 1948", "question": "Kdy vznikl samostatný československý stát?", "options": { "A": "29. září 1938.", "B": "1. ledna 1993.", "C": "28. října 1918.", "D": "8. května 1945." }, "correct": "C" }
+  { "category": "DĚJINY ČESKOSLOVENSKA DO ROKU 1948", "question": "Kdy vznikl samostatný československý stát?", "options": { "A": "29. září 1938.", "B": "1. ledna 1993.", "C": "28. října 1918.", "D": "8. května 1945." }, "correct": "C" },
 
       { "category": "DĚJINY ČESKOSLOVENSKA OD ROKU 1948 DO ROKU 1989", "question": "Kdo se stal československým prezidentem v roce 1948 poté, co komunistická strana převzala moc ve státě?", "options": { "A": "Edvard Beneš.", "B": "Klement Gottwald.", "C": "Antonín Zápotocký.", "D": "Tomáš Garrigue Masaryk." }, "correct": "B" },
   { "category": "DĚJINY ČESKOSLOVENSKA OD ROKU 1948 DO ROKU 1989", "question": "Jak se jmenoval student, který se upálil v lednu 1969 v Praze na Václavském náměstí?", "options": { "A": "Jan Palach.", "B": "Jan Opletal.", "C": "Martin Šmíd.", "D": "Václav Sedláček." }, "correct": "A" },
@@ -462,7 +462,7 @@ const QUESTIONS = [
   { "category": "UMĚNÍ OD STŘEDOVĚKU DO SOUČASNOSTI", "question": "Koho představuje tato socha na pražském Vítkově?", "options": { "A": "Jana Žižku.", "B": "Miroslava Tyrše.", "C": "Jiřího z Poděbrad.", "D": "Tomáše Garrigua Masaryka." }, "correct": "A" },
   { "category": "UMĚNÍ OD STŘEDOVĚKU DO SOUČASNOSTI", "question": "Vila Tugendhat (na obrázku) je na seznamu světového kulturního dědictví UNESCO. Kde se nachází?", "options": { "A": "V Olomouci.", "B": "V Liberci.", "C": "V Praze.", "D": "V Brně." }, "correct": "D" },
   { "category": "UMĚNÍ OD STŘEDOVĚKU DO SOUČASNOSTI", "question": "Orloj jsou středověké hodiny na věži. Na kterém obrázku je pražský orloj?", "options": { "A": "Obrázek A", "B": "Obrázek B", "C": "Obrázek C", "D": "Obrázek D" }, "correct": "C" },
-  { "category": "UMĚNÍ OD STŘEDOVĚKU DO SOUČASNOSTI", "question": "Na obrázku je známá pražská budova ve stylu secese. K čemu slouží tato budova?", "options": { "A": "Je to banka.", "B": "Je to letiště.", "C": "Je to nádraží.", "D": "Je to parlament." }, "correct": "C" }
+  { "category": "UMĚNÍ OD STŘEDOVĚKU DO SOUČASNOSTI", "question": "Na obrázku je známá pražská budova ve stylu secese. K čemu slouží tato budova?", "options": { "A": "Je to banka.", "B": "Je to letiště.", "C": "Je to nádraží.", "D": "Je to parlament." }, "correct": "C" },
                                                                  
 ];
 
